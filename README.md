@@ -6,7 +6,7 @@
 
 > The screenshots below use **synthetic demo data** (labelled "DEMO DATA" in each image). Run the dashboard in *Live* mode to see real repositories.
 
-![Issues per month](assets/demo_pandas-dev__pandas_issues_activity.png)
+![Issues per month](demo_pandas-dev__pandas_issues_activity.png)
 
 ## What it does
 
@@ -20,15 +20,15 @@ Pick up to three public GitHub repositories (for example `pandas-dev/pandas`) an
 
 | How long issues take to close | Top contributors |
 |---|---|
-| ![Resolution time](assets/demo_pandas-dev__pandas_resolution.png) | ![Contributors](assets/demo_pandas-dev__pandas_contributors.png) |
+| ![Resolution time](demo_pandas-dev__pandas_resolution.png) | ![Contributors](demo_pandas-dev__pandas_contributors.png) |
 
-![Compare repositories](assets/demo_compare_closure_rate.png)
+![Compare repositories](demo_compare_closure_rate.png)
 
 ## Quick start
 
 ```bash
-git clone <your-repo-url>
-cd oss-insight-bd
+git clone https://github.com/Sohan-Rana/OSS-Insight-BD.git
+cd OSS-Insight-BD
 
 python -m venv .venv
 # Windows:      .venv\Scripts\activate
@@ -80,7 +80,7 @@ GitHub REST API  ->  github_client.py   (pagination, 1-hour cache, rate-limit er
 ```
 
 ```
-oss-insight-bd/
+OSS-Insight-BD/
 ├── app.py                  Streamlit dashboard
 ├── generate_report.py      CLI: PNG charts + CSV summary
 ├── ossinsight/
@@ -91,7 +91,7 @@ oss-insight-bd/
 │   ├── report.py           static Matplotlib charts
 │   └── demo_data.py        synthetic offline data
 ├── tests/                  pytest suite
-└── assets/                 demo screenshots
+└── demo_*.png              demo screenshots
 ```
 
 ## Limitations (read before drawing conclusions)
