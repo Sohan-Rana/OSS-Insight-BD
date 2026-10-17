@@ -116,6 +116,7 @@ To turn this into a study: define the question, choose repositories with a clear
 - Label-based analysis (bugs vs features)
 - Statistical tests and confidence intervals
 - Public deployment (Streamlit Community Cloud)
+- **Live demo:** [oss-insight-bd.streamlit.app](https://oss-insight-bd-mheuahv72fcr674msbja3v.streamlit.app/)
 
 ## License
 
